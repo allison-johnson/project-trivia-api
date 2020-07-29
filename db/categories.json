@@ -1,0 +1,73 @@
+[
+  { "_id": "5f21547330ba4428fd567a4f", 
+    "name": "General Knowledge", 
+    "__v": 0 
+  },
+  {
+    "_id": "5f21547330ba4428fd567a50",
+    "name": "Entertainment: Books",
+    "__v": 0
+  },
+  {
+    "_id": "5f21547330ba4428fd567a51",
+    "name": "Entertainment: Film",
+    "__v": 0
+  },
+  {
+    "_id": "5f21547330ba4428fd567a52",
+    "name": "Entertainment: Music",
+    "__v": 0
+  },
+  {
+    "_id": "5f21547330ba4428fd567a53",
+    "name": "Entertainment: Musicals & Theatres",
+    "__v": 0
+  },
+  {
+    "_id": "5f21547330ba4428fd567a54",
+    "name": "Entertainment: Television",
+    "__v": 0
+  },
+  {
+    "_id": "5f21547330ba4428fd567a55",
+    "name": "Entertainment: Video Games",
+    "__v": 0
+  },
+  {
+    "_id": "5f21547330ba4428fd567a56",
+    "name": "Entertainment: Board Games",
+    "__v": 0
+  },
+  { "_id": "5f21547330ba4428fd567a57", "name": "Science & Nature", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a58", "name": "Science: Computers", "__v": 0 },
+  {
+    "_id": "5f21547330ba4428fd567a59",
+    "name": "Science: Mathematics",
+    "__v": 0
+  },
+  { "_id": "5f21547330ba4428fd567a5a", "name": "Mythology", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a5b", "name": "Sports", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a5c", "name": "Geography", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a5d", "name": "History", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a5e", "name": "Politics", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a5f", "name": "Art", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a60", "name": "Celebrities", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a61", "name": "Animals", "__v": 0 },
+  { "_id": "5f21547330ba4428fd567a62", "name": "Vehicles", "__v": 0 },
+  {
+    "_id": "5f21547330ba4428fd567a63",
+    "name": "Entertainment: Comics",
+    "__v": 0
+  },
+  { "_id": "5f21547330ba4428fd567a64", "name": "Science: Gadgets", "__v": 0 },
+  {
+    "_id": "5f21547330ba4428fd567a65",
+    "name": "Entertainment: Japanese Anime & Manga",
+    "__v": 0
+  },
+  {
+    "_id": "5f21547330ba4428fd567a66",
+    "name": "Entertainment: Cartoon & Animations",
+    "__v": 0
+  }
+]

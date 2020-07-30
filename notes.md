@@ -7,9 +7,11 @@
 *Server To Do*
 [x] Create Express server
 [x] Create routes for categories resource
-[] Create routes for triviaQuestions resource
+[x] Create routes for triviaQuestions resource
 
 *Stretch*
+[] When a new question is created, also create a new category if it's not already in the db
+    [] In this case, maybe don't allow categories to be deleted? Or, when a category is deleted, delete all questions with that category?
 [] Make multiple API calls to seed DB with more than 50 questions
     [] trivia questions : {
         easy: [{q1}, {q2}],
@@ -17,4 +19,5 @@
         hard: [{q1}, {q2}]
     }
 [] Link trivia questions and categories (?)
+    [] triviaQuestionSchema has a category field that's a categorySchema instead of a String
 

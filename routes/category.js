@@ -1,13 +1,9 @@
 const router = require('express')();
+const categoryController = require('../controllers/category')
 
-//TODO: Put controller actions into a controllers/category.js file
-const Category = require('../models/Category')
-
-router.get('/', (req, resp) => {
-    Category.find({})
-        .then(categories => {
-            resp.json(categories)
-        })
-})
+router.get('/', categoryController.index)
+router.get('/id/:id', categoryController.showId)
+router.post('/', categoryController.create)
+router.delete('/:id', categoryController.delete)
 
 module.exports = router 

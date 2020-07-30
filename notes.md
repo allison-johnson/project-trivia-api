@@ -6,7 +6,7 @@
 
 *Server To Do*
 [x] Create Express server
-[] Create routes for categories resource
+[x] Create routes for categories resource
 [] Create routes for triviaQuestions resource
 
 *Stretch*

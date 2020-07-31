@@ -1,7 +1,11 @@
 const router = require('express')();
 const triviaQuestionController = require('../controllers/triviaQuestion')
 
-//All of these paths implicityly start with /triviaQuestion
+//All of these paths implicitly start with /triviaQuestion
+/*
+ * @api {get} 
+*/
+
 router.get('/', triviaQuestionController.index)
 router.get('/id/:id', triviaQuestionController.showId)
 router.get('/category/:category_name', triviaQuestionController.showCategory)

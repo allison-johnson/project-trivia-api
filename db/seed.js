@@ -41,7 +41,15 @@ axios.get(categoryUrl)
     })//axios catch
 
 //Seed triviaQuestions collection
-//Not going through the process of writing data to a JSON file like we did with categories
+    //Create an object of category id's and the corresponding number of questions
+    //Loop over categoryNames and for each element generate the API endpoint for that category (categoryUrl)
+    //Make an axios.get request with that categoryUrl
+    //Meanwhile, update a counter variable each time a response is received. When that resposnse is received (and decoded)
+    //push it into some array of responseData
+    //When the counter variable exceeds the length of the category names array, save the responseData by calling
+    //a saveData method:
+        //Stringify the data and write it to a file!
+
 axios.get(questionUrl)
     .then(resp => {
         console.log("Response from questionUrl: ", resp.data.results)

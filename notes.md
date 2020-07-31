@@ -1,5 +1,6 @@
 *Database To Do*
 [x] Database created
+[x] Raw data fetched from Open Trivia API
 [x] categories collection seeded with data from Open Trivia API
     [x] categories data also written to a JSON file 
 [x] triviaquestion collection seed with data from Open Trivia API
@@ -8,6 +9,7 @@
 [x] Create Express server
 [x] Create routes for categories resource
 [x] Create routes for triviaQuestions resource
+[ ] Add Readme
 
 *Stretch*
 [] When a new question is created, also create a new category if it's not already in the db
@@ -21,3 +23,5 @@
 [] Link trivia questions and categories (?)
     [] triviaQuestionSchema has a category field that's a categorySchema instead of a String
 
+Connection string from Mongo Atlas:
+heroku config:set DB_URL="mongodb+srv://mongodb:mongodb@cluster0.ds1er.mongodb.net/<dbname>?retryWrites=true&w=majority"
